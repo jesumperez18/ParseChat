@@ -19,9 +19,9 @@ The following **required** user stories are complete:
 The following **stretch** user stories are implemented:
 
 - [ ] User sees an activity indicator while waiting for authentication (+1pt)
-- [ ] User can pull to refresh Chat feed (+1pt)
+- [x] User can pull to refresh Chat feed (+1pt)
 - [ ] Add an "Adorable Avatar" for each user by requesting an avatar from the [Adorable Avatars API](https://github.com/adorableio/avatars-api) (+2pt)
-- [ ] Chat Bubble Style Design (+3pt)
+- [x] Chat Bubble Style Design (+3pt)
 - [ ] Expand or contract the cell layout as needed to show the chat message author (user) if it exists (+2pt)
 
 The following **additional** user stories are implemented:
@@ -30,24 +30,24 @@ The following **additional** user stories are implemented:
 
 Please list two areas of the assignment you'd like to **discuss further with your peers** during the next class (examples include better ways to implement something, how to extend your app in certain ways, etc):
 
-1.
-2.
+1. better code patterns
+2. how to format constraints
 
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://github.com/jesumperez18/ParseChat/blob/master/parseChat.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
-Describe any challenges encountered while building the app.
+PFObjects and how to recieve them was a bit difficult. Also, posting data was also a bit challenging because setting the object.
 
 ## License
 
-    Copyright [yyyy] [name of copyright owner]
+    Copyright 2018 Jesus & Emily
 
     Licensed under the Apache License, Version 2.0 (the "License");
     you may not use this file except in compliance with the License.
