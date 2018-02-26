@@ -21,6 +21,7 @@ class ChatViewController: UIViewController,UITableViewDataSource,UITableViewDele
     
     @IBOutlet weak var chatTableView: UITableView!
     @IBOutlet weak var message: UITextField!
+    @IBOutlet weak var bubbleView: UIView!
     
     
     override func viewDidLoad() {
@@ -49,6 +50,7 @@ class ChatViewController: UIViewController,UITableViewDataSource,UITableViewDele
         Timer.scheduledTimer(timeInterval: 1, target: self, selector: #selector(self.fetchMessages(_:)), userInfo: nil, repeats: true)
 
         // Do any additional setup after loading the view.
+        self.chatTableView.separatorStyle = .none
     }
 
     override func didReceiveMemoryWarning() {
@@ -123,6 +125,9 @@ class ChatViewController: UIViewController,UITableViewDataSource,UITableViewDele
         
         cell.messageLabel.text = self.messages[indexPath.row]
         cell.usernameLabel.text = self.usernames[indexPath.row]
+        
+        cell.bubbleView.layer.cornerRadius = 16
+        cell.bubbleView.clipsToBounds = true
         return cell
     }
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
