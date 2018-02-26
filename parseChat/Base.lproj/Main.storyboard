@@ -179,7 +179,7 @@
         <!--Navigation Controller-->
         <scene sceneID="Y2L-zl-yao">
             <objects>
-                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="xC4-6L-GKS" sceneMemberID="viewController">
+                <navigationController storyboardIdentifier="Nav" automaticallyAdjustsScrollViewInsets="NO" useStoryboardIdentifierAsRestorationIdentifier="YES" id="xC4-6L-GKS" sceneMemberID="viewController">
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="gui-kA-JlI">
                         <rect key="frame" x="0.0" y="20" width="375" height="44"/>

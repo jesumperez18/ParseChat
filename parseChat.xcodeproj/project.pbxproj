@@ -16,7 +16,6 @@
 		5AC052E220437DA10066FBCC /* parseChatTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC052E120437DA10066FBCC /* parseChatTests.swift */; };
 		5AC052ED20437DA10066FBCC /* parseChatUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC052EC20437DA10066FBCC /* parseChatUITests.swift */; };
 		5AC052FB204396810066FBCC /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC052FA204396810066FBCC /* LoginViewController.swift */; };
-		5AC052FD2043980E0066FBCC /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC052FC2043980E0066FBCC /* HomeViewController.swift */; };
 		5AC052FF2043A1F80066FBCC /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC052FE2043A1F80066FBCC /* ChatViewController.swift */; };
 		5AC053012043A45F0066FBCC /* ChatCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AC053002043A45F0066FBCC /* ChatCell.swift */; };
 		608392FB9A0985749883B322 /* Pods_parseChatUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AB363BC31E70DD6C53FBB841 /* Pods_parseChatUITests.framework */; };
@@ -56,7 +55,6 @@
 		5AC052EC20437DA10066FBCC /* parseChatUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parseChatUITests.swift; sourceTree = "<group>"; };
 		5AC052EE20437DA10066FBCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5AC052FA204396810066FBCC /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
-		5AC052FC2043980E0066FBCC /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5AC052FE2043A1F80066FBCC /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
 		5AC053002043A45F0066FBCC /* ChatCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatCell.swift; sourceTree = "<group>"; };
 		5C8D7F39F8A06907612A416A /* Pods-parseChatUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-parseChatUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-parseChatUITests/Pods-parseChatUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -142,7 +140,6 @@
 				5AC052D520437DA10066FBCC /* LaunchScreen.storyboard */,
 				5AC052D820437DA10066FBCC /* Info.plist */,
 				5AC052FA204396810066FBCC /* LoginViewController.swift */,
-				5AC052FC2043980E0066FBCC /* HomeViewController.swift */,
 				5AC052FE2043A1F80066FBCC /* ChatViewController.swift */,
 				5AC053002043A45F0066FBCC /* ChatCell.swift */,
 			);
@@ -476,7 +473,6 @@
 				5AC052CF20437DA10066FBCC /* ViewController.swift in Sources */,
 				5AC052CD20437DA10066FBCC /* AppDelegate.swift in Sources */,
 				5AC052FF2043A1F80066FBCC /* ChatViewController.swift in Sources */,
-				5AC052FD2043980E0066FBCC /* HomeViewController.swift in Sources */,
 				5AC053012043A45F0066FBCC /* ChatCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

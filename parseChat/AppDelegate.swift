@@ -25,12 +25,12 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
             configuration.server = "https://parsechatcodepath.herokuapp.com/parse"
         }))
         
-        // This checks is a user is signed in already!
-//        if PFUser.current() != nil {
-//            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-//            // view controller currently being set in Storyboard as default will be overridden
-//            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "HomeViewController")
-//        }
+         //This checks is a user is signed in already!
+        if PFUser.current() != nil {
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            // view controller currently being set in Storyboard as default will be overridden
+            window?.rootViewController = storyboard.instantiateViewController(withIdentifier: "Nav")
+        }
         
         return true
     }
